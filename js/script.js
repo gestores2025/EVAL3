@@ -8,7 +8,7 @@ const productsData = [
     {id:7, name:"Producto 7", price:22, img:"img/Product7.jpg"},
     {id:8, name:"Producto 8", price:30, img:"img/Product8.jpg"},
     {id:9, name:"Producto 9", price:16, img:"img/Product9.jpg"},
-    {id:10, name:"Producto 10", price:28, img:"img/Product10.jpg"},
+    {id:10, name:"Producto 10", price:28, img:"img/Producto10.jpg"},
 ];
 
 let cart = [];
@@ -82,5 +82,6 @@ showCartBtn.addEventListener('click', () => {
 
 // Inicialización
 displayProducts();
+
 
 
