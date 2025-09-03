@@ -1,6 +1,6 @@
 const productsData = [
-    {id:1, name:"Producto 1", price:10, img:"img/product1.jpg"},
-    {id:2, name:"Producto 2", price:15, img:"img/product2.jpg"},
+    {id:1, name:"Producto 1", price:10, img:"img/Product1.jpg"},
+    {id:2, name:"Producto 2", price:15, img:"img/Product2.jpg"},
     {id:3, name:"Producto 3", price:20, img:"img/product3.jpg"},
     {id:4, name:"Producto 4", price:12, img:"img/product4.jpg"},
     {id:5, name:"Producto 5", price:18, img:"img/product5.jpg"},
@@ -47,7 +47,7 @@ function addToCart(id) {
 function displayCart() {
     cartSection.innerHTML = '';
     if(cart.length === 0){
-        cartSection.innerHTML = '<p>El carrito est· vacÌo</p>';
+        cartSection.innerHTML = '<p>El carrito est√° vac√≠o</p>';
         return;
     }
     cart.forEach(item => {
@@ -68,7 +68,7 @@ totalButton.addEventListener('click', () => {
     totalAmount.textContent = `Total: $${sum}`;
 });
 
-// NavegaciÛn entre pestaÒas
+// Navegaci√≥n entre pesta√±as
 showProductsBtn.addEventListener('click', () => {
     productsSection.classList.add('active');
     cartSection.classList.remove('active');
@@ -80,5 +80,6 @@ showCartBtn.addEventListener('click', () => {
     productsSection.classList.remove('active');
 });
 
-// InicializaciÛn
+// Inicializaci√≥n
 displayProducts();
+
