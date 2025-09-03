@@ -1,14 +1,14 @@
 const productsData = [
     {id:1, name:"Producto 1", price:10, img:"img/Product1.jpg"},
     {id:2, name:"Producto 2", price:15, img:"img/Product2.jpg"},
-    {id:3, name:"Producto 3", price:20, img:"img/product3.jpg"},
-    {id:4, name:"Producto 4", price:12, img:"img/product4.jpg"},
-    {id:5, name:"Producto 5", price:18, img:"img/product5.jpg"},
-    {id:6, name:"Producto 6", price:25, img:"img/product6.jpg"},
-    {id:7, name:"Producto 7", price:22, img:"img/product7.jpg"},
-    {id:8, name:"Producto 8", price:30, img:"img/product8.jpg"},
-    {id:9, name:"Producto 9", price:16, img:"img/product9.jpg"},
-    {id:10, name:"Producto 10", price:28, img:"img/product10.jpg"},
+    {id:3, name:"Producto 3", price:20, img:"img/Product3.jpg"},
+    {id:4, name:"Producto 4", price:12, img:"img/Product4.jpg"},
+    {id:5, name:"Producto 5", price:18, img:"img/Product5.jpg"},
+    {id:6, name:"Producto 6", price:25, img:"img/Product6.jpg"},
+    {id:7, name:"Producto 7", price:22, img:"img/Product7.jpg"},
+    {id:8, name:"Producto 8", price:30, img:"img/Product8.jpg"},
+    {id:9, name:"Producto 9", price:16, img:"img/Product9.jpg"},
+    {id:10, name:"Producto 10", price:28, img:"img/Product10.jpg"},
 ];
 
 let cart = [];
@@ -82,4 +82,5 @@ showCartBtn.addEventListener('click', () => {
 
 // Inicialización
 displayProducts();
+
 
